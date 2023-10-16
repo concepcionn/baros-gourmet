@@ -1,0 +1,38 @@
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+   
+}
+
+.category-title{
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+}
+
+.list-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    width: 100%;
+    color: white;
+}
+
+.category-list{
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+
+.category-button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
