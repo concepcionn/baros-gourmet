@@ -1,9 +1,10 @@
 import React from 'react'
 import * as Icon from 'react-bootstrap-icons';
+import "./styles.css"
 
 const CartWidget = () => {
   return (
-    <div>
+    <div className='cart-component'>
         <Icon.Cart/>
         <span>3</span>
     </div>
