@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <div className='navbar-container'>
         <div className="category-title">
-        <img alt="B" src={"../public/images/logo-principal.png"} width={"200px"}></img>
+        <img alt="B" src={"./public/images/logo-principal.png"} width={"200px"}></img>
             <h1>Baro´s gourmet</h1> 
         </div>
         <div className='category-list'>
